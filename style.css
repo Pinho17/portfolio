@@ -1,0 +1,210 @@
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*overlay is the title section */
+
+.overlay {
+  display: inline-block;
+  height: 100vh;
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 15%;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.big-div {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: transparent;
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.nav-btn  {
+  display: block;
+  font-family: "Space Mono", monospace;
+  letter-spacing: -0.40rem;
+  color: gray;
+  padding-left: 8.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+a:hover {
+  color: white;
+}
+
+.title {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(1rem, 15vw, 6rem);
+  color: white;
+  padding: 0px;
+  margin: 0;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+  margin: 0rem;
+  overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  
+  
+}
+
+.about-section{
+  width: 100%;
+  height: 100%;
+}
+
+.about-title{
+  display: flex;
+  padding-bottom: 3rem;
+  
+}
+
+.about-description{
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+  
+}
+
+.about-description-div {
+  padding-left: 19rem;
+  padding-top: 1.5rem;
+  width: 60%;
+}
+
+.pfp{
+  border-radius: 50%;
+  margin-left: 44%;
+  width: 12%;
+}
+
+.work-section {
+  width: 100%;
+  
+}
+
+.gallery{
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.gallery-item{
+  padding: 10px;
+  padding-bottom: 10rem;
+  flex: 1 0 20rem;
+  overflow: hidden;
+ 
+}
+
+.gallery-img{
+  display: block;
+  border-radius: 1%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+ 
+}
+
+.gallery-img:hover {
+  opacity: 100%;
+  transition: 200ms ease-in;
+}
+
+
+
+.work-description {
+  color: white;
+}
+
+.logo {
+  width: 9%;
+  position: fixed;
+  left: 10px;
+  top: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+
+h2 {
+  display: flex;
+  color: white;
+  font-family: "Space Mono", monospace;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+
+footer{
+  padding-top: 5rem;
+  width: 100%;
+  display: block;
+  padding-bottom: 1.5rem;
+}
+
+.footer-items {
+  display: flex;
+  color: gray;
+  font-family: "Space Mono", monospace;
+  justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.footer-items a {
+  text-decoration: none;
+}
+
